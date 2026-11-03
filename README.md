@@ -8,7 +8,7 @@
 [![Pages](https://img.shields.io/badge/页数-54%20A4-b0862c.svg)](dist/薄肌学.pdf)
 [![check](https://github.com/kangronghuuu/bojixue/actions/workflows/check.yml/badge.svg)](https://github.com/kangronghuuu/bojixue/actions/workflows/check.yml)
 
-![封面](docs/cover.png)
+![封面](docs/cover-v2.png)
 
 ---
 
@@ -24,7 +24,7 @@
 
 ## 内页预览
 
-![内页预览](docs/preview.png)
+![内页预览](docs/preview-v2.png)
 
 ## 目录
 
