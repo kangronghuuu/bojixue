@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 460" width="420" height="460">
+  <defs>
+    <pattern id="sl-ht" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#221D14" opacity=".22"/></pattern>
+  </defs>
+  <text x="24" y="42" font-family="PingFang SC" font-size="17" letter-spacing="1" fill="#B0862C">睡眠时长与减脂质量</text>
+  <path d="M24 52 L220 52" stroke="#B0862C" stroke-width="1.2"/>
+
+  <!-- rows -->
+  <g font-family="PingFang SC">
+    <text x="24" y="118" font-size="20" font-weight="600" fill="#221D14">8.5 h</text>
+    <text x="24" y="140" font-size="16" fill="#7E7258">睡够了</text>
+
+    <rect x="98" y="96" width="220" height="30" fill="#E9967F" stroke="#221D14" stroke-width="2.4"/>
+    <text x="106" y="117" font-size="18" fill="#5E2213">脂肪减少</text>
+    <rect x="98" y="134" width="88" height="24" fill="#EFD9A0" stroke="#221D14" stroke-width="2.4"/>
+    <text x="106" y="151" font-size="16" fill="#5E4C1D">瘦体重流失</text>
+
+    <text x="24" y="278" font-size="20" font-weight="600" fill="#221D14">5.5 h</text>
+    <text x="24" y="300" font-size="16" fill="#7E7258">睡不够</text>
+
+    <rect x="98" y="256" width="99" height="30" fill="#E9967F" stroke="#221D14" stroke-width="2.4"/>
+    <text x="112" y="277" font-size="18" fill="#5E2213">脂肪减少</text>
+    <rect x="98" y="294" width="176" height="24" fill="#EFD9A0" stroke="#221D14" stroke-width="2.4"/>
+    <text x="106" y="311" font-size="16" fill="#5E4C1D">瘦体重流失 ↑</text>
+
+    <!-- hormone tags -->
+    <g transform="translate(24,352)">
+      <rect x="0" y="0" width="168" height="40" rx="20" fill="#F6EACB" stroke="#221D14" stroke-width="2.4"/>
+      <text x="84" y="26" text-anchor="middle" font-size="15" fill="#7A5F1E">瘦素 ↓ 18%</text>
+    </g>
+    <g transform="translate(204,352)">
+      <rect x="0" y="0" width="192" height="40" rx="20" fill="#F9E7DC" stroke="#221D14" stroke-width="2.4"/>
+      <text x="96" y="26" text-anchor="middle" font-size="15" fill="#A8442B">饥饿素 ↑ 28%</text>
+    </g>
+    <text x="24" y="430" font-size="18" fill="#7E7258">体重掉了同样的数，构成却不一样。</text>
+  </g>
+</svg>

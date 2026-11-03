@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560">
+  <defs>
+    <pattern id="tb-ht" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2.4" cy="2.4" r="1.1" fill="#221D14" opacity=".18"/></pattern>
+  </defs>
+  <!-- table -->
+  <ellipse cx="450" cy="318" rx="322" ry="186" fill="#E8D3A0" stroke="#221D14" stroke-width="6"/>
+  <ellipse cx="450" cy="318" rx="322" ry="186" fill="url(#tb-ht)"/>
+  <ellipse cx="450" cy="318" rx="290" ry="162" fill="none" stroke="#B0862C" stroke-width="2" opacity=".5"/>
+
+  <!-- plates -->
+  <g stroke="#221D14" stroke-width="3.4">
+    <circle cx="270" cy="272" r="54" fill="#FBF5E5"/>
+    <circle cx="630" cy="272" r="54" fill="#FBF5E5"/>
+    <circle cx="270" cy="402" r="54" fill="#FBF5E5"/>
+    <circle cx="630" cy="402" r="54" fill="#FBF5E5"/>
+    <!-- center dish -->
+    <ellipse cx="450" cy="340" rx="90" ry="58" fill="#FBF5E5"/>
+    <path d="M404 330 q46 22 92 0" fill="none" stroke="#B0862C" stroke-width="2.4"/>
+  </g>
+  <!-- food on one plate: protein + veg -->
+  <circle cx="252" cy="260" r="18" fill="#E9967F" stroke="#221D14" stroke-width="2.6"/>
+  <circle cx="292" cy="286" r="14" fill="#8C9A5B" stroke="#221D14" stroke-width="2.6"/>
+  <!-- glasses -->
+  <g stroke="#221D14" stroke-width="3.4" fill="#F6EACB">
+    <circle cx="368" cy="212" r="18"/>
+    <circle cx="532" cy="212" r="18"/>
+    <path d="M356 226 L380 226 M520 226 L544 226" stroke-width="2.6" fill="none"/>
+  </g>
+  <!-- bottle -->
+  <g stroke="#221D14" stroke-width="3.2" fill="#DCE2BD">
+    <rect x="722" y="214" width="30" height="88" rx="8"/>
+    <rect x="730" y="198" width="14" height="20" rx="4"/>
+  </g>
+
+  <!-- callouts -->
+  <g font-family="PingFang SC" font-size="21" fill="#221D14">
+    <text x="94" y="150">① 先蛋白质</text>
+    <path d="M196 158 L240 232" stroke="#221D14" stroke-width="1.8" stroke-dasharray="4 5"/>
+    <text x="640" y="150">② 先蔬菜</text>
+    <path d="M700 160 L700 232" stroke="#221D14" stroke-width="1.8" stroke-dasharray="4 5"/>
+    <text x="120" y="500">③ 主食最后</text>
+    <path d="M270 486 L270 462" stroke="#221D14" stroke-width="1.8" stroke-dasharray="4 5"/>
+    <text x="600" y="500">④ 酒水设上限</text>
+    <path d="M660 486 L660 440" stroke="#221D14" stroke-width="1.8" stroke-dasharray="4 5"/>
+  </g>
+  <text x="450" y="540" text-anchor="middle" font-family="PingFang SC" font-size="17" fill="#7E7258">一顿饭不会毁掉一周，一周的连续失控才会。</text>
+</svg>

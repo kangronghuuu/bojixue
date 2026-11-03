@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600" fill="none">
+  <defs>
+    <pattern id="mascot-halftone-coral" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(18)">
+      <circle cx="2.6" cy="2.6" r="2.15" fill="#D4553B"/>
+    </pattern>
+    <pattern id="mascot-halftone-ink" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-12)">
+      <circle cx="2.2" cy="2.2" r="1.55" fill="#221D14"/>
+    </pattern>
+    <clipPath id="mascot-shorts-clip">
+      <path d="M134 448 C170 441 230 441 266 448 L274 486 C276 508 270 526 255 530 L235 532 C226 532 220 526 218 517 L200 498 L182 517 C180 526 174 532 165 532 L145 530 C130 526 124 508 126 486 Z"/>
+    </clipPath>
+    <clipPath id="mascot-body-clip">
+      <path d="M138 292 C135 266 152 248 174 242 C189 238 211 238 226 242 C248 248 265 266 262 292 C259 323 246 343 245 371 C244 403 254 429 251 453 C248 475 228 487 200 487 C172 487 152 475 149 453 C146 429 156 403 155 371 C154 343 141 323 138 292 Z"/>
+      <ellipse cx="200" cy="170" rx="107" ry="104"/>
+      <path d="M134 448 C170 441 230 441 266 448 L274 486 C276 508 270 526 255 530 L235 532 C226 532 220 526 218 517 L200 498 L182 517 C180 526 174 532 165 532 L145 530 C130 526 124 508 126 486 Z"/>
+    </clipPath>
+    <filter id="mascot-grain" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="11" result="noise"/>
+      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.13  0 0 0 0 0.10  0 0 0 0 0.07  0 0 0 0.30 0"/>
+    </filter>
+  </defs>
+
+  <g transform="rotate(-2 200 310)">
+    <!-- riso misregistration: gold shadow of the shorts -->
+    <path transform="translate(2 7)" d="M134 448 C170 441 230 441 266 448 L274 486 C276 508 270 526 255 530 L235 532 C226 532 220 526 218 517 L200 498 L182 517 C180 526 174 532 165 532 L145 530 C130 526 124 508 126 486 Z" fill="#B0862C" opacity="0.55"/>
+
+    <!-- ground shadow -->
+    <ellipse cx="200" cy="592" rx="78" ry="10" fill="#B0862C" opacity="0.16"/>
+
+    <!-- noodle arms (drawn behind the body) -->
+    <path d="M128 300 C110 330 98 358 90 386" stroke="#221D14" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="88" cy="392" r="11" fill="#FBF5E5" stroke="#221D14" stroke-width="5"/>
+    <path d="M274 296 C296 274 306 252 312 230" stroke="#221D14" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="314" cy="222" r="11" fill="#FBF5E5" stroke="#221D14" stroke-width="5"/>
+    <!-- gold wristband on the character's left wrist -->
+    <path d="M301.5 236.2 L318.5 241.8" stroke="#B0862C" stroke-width="7.5" stroke-linecap="round"/>
+
+    <!-- noodle legs with stubby feet (drawn behind the shorts) -->
+    <path d="M169 528 C166 544 163 555 157 565" stroke="#221D14" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="151" cy="573" rx="15" ry="7.5" fill="#221D14"/>
+    <path d="M232 526 C236 542 240 554 246 564" stroke="#221D14" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="252" cy="571" rx="15" ry="7.5" fill="#221D14"/>
+
+    <!-- body -->
+    <path d="M138 292 C135 266 152 248 174 242 C189 238 211 238 226 242 C248 248 265 266 262 292 C259 323 246 343 245 371 C244 403 254 429 251 453 C248 475 228 487 200 487 C172 487 152 475 149 453 C146 429 156 403 155 371 C154 343 141 323 138 292 Z" fill="#FBF5E5" stroke="#221D14" stroke-width="5.5" stroke-linejoin="round"/>
+
+    <!-- thin-muscle marks -->
+    <path d="M188 322 L212 322" stroke="#66733C" stroke-width="6" stroke-linecap="round"/>
+    <path d="M183 348 L217 348" stroke="#66733C" stroke-width="6" stroke-linecap="round"/>
+    <path d="M180 374 L220 374" stroke="#66733C" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- coral shorts -->
+    <path d="M134 448 C170 441 230 441 266 448 L274 486 C276 508 270 526 255 530 L235 532 C226 532 220 526 218 517 L200 498 L182 517 C180 526 174 532 165 532 L145 530 C130 526 124 508 126 486 Z" fill="#D4553B" stroke="#221D14" stroke-width="5.5" stroke-linejoin="round"/>
+    <g clip-path="url(#mascot-shorts-clip)">
+      <rect x="110" y="435" width="190" height="110" fill="url(#mascot-halftone-ink)" opacity="0.16"/>
+    </g>
+    <path d="M136 470 C171 462 229 462 264 470" stroke="#221D14" stroke-width="4.5" stroke-linecap="round"/>
+
+    <!-- head -->
+    <g transform="rotate(-3 200 170)">
+      <ellipse cx="200" cy="170" rx="107" ry="104" fill="#FBF5E5" stroke="#221D14" stroke-width="5.5"/>
+      <circle cx="137" cy="200" r="17" fill="url(#mascot-halftone-coral)" opacity="0.55"/>
+      <circle cx="264" cy="203" r="17" fill="url(#mascot-halftone-coral)" opacity="0.55"/>
+      <circle cx="165" cy="176" r="9.5" fill="#221D14"/>
+      <circle cx="237" cy="180" r="9.5" fill="#221D14"/>
+      <path d="M181 209 C194 206 207 205 219 204" stroke="#221D14" stroke-width="5" stroke-linecap="round"/>
+      <!-- cowlick -->
+      <path d="M203 67 C201 46 211 31 222 35" stroke="#221D14" stroke-width="5.5" stroke-linecap="round"/>
+      <path d="M212 51 C218 41 227 39 233 45" stroke="#221D14" stroke-width="4.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- riso speckle over the figure only -->
+    <g clip-path="url(#mascot-body-clip)" opacity="0.55">
+      <rect x="60" y="30" width="290" height="580" fill="#FBF5E5" filter="url(#mascot-grain)"/>
+    </g>
+  </g>
+</svg>

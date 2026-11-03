@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 460" width="420" height="460">
+  <g font-family="PingFang SC" text-anchor="middle">
+    <text x="210" y="38" font-size="17" letter-spacing="1" fill="#B0862C">压力影响体重的路径</text>
+    <path d="M140 48 L280 48" stroke="#B0862C" stroke-width="1.2"/>
+
+    <rect x="130" y="70" width="160" height="46" rx="10" fill="#F9E7DC" stroke="#221D14" stroke-width="2.6"/>
+    <text x="210" y="99" font-size="19" font-weight="600" fill="#A8442B">压力</text>
+
+    <path d="M210 116 L210 140" stroke="#221D14" stroke-width="2.4"/>
+    <path d="M110 140 L310 140" stroke="#221D14" stroke-width="2.4"/>
+    <path d="M110 140 L110 158 M210 140 L210 158 M310 140 L310 158" stroke="#221D14" stroke-width="2.4"/>
+
+    <rect x="42" y="158" width="136" height="52" rx="9" fill="#F6EACB" stroke="#221D14" stroke-width="2.4"/>
+    <text x="110" y="181" font-size="15" font-weight="600" fill="#221D14">睡眠变差</text>
+    <text x="110" y="201" font-size="16" fill="#7E7258">睡得少 → 更饿</text>
+
+    <rect x="142" y="222" width="136" height="52" rx="9" fill="#E7E3C8" stroke="#221D14" stroke-width="2.4"/>
+    <text x="210" y="245" font-size="15" font-weight="600" fill="#221D14">NEAT 下降</text>
+    <text x="210" y="265" font-size="16" fill="#7E7258">不想动 → 更省</text>
+
+    <rect x="242" y="158" width="136" height="52" rx="9" fill="#F9E7DC" stroke="#221D14" stroke-width="2.4"/>
+    <text x="310" y="181" font-size="15" font-weight="600" fill="#221D14">进食变多</text>
+    <text x="310" y="201" font-size="16" fill="#7E7258">外卖与甜食</text>
+
+    <path d="M110 210 L110 236 M310 210 L310 236" stroke="#221D14" stroke-width="2"/>
+    <path d="M110 236 L310 236" stroke="#221D14" stroke-width="2"/>
+    <path d="M210 236 L210 302" stroke="#221D14" stroke-width="2.4" marker-end="url(#co-ar)"/>
+    <defs><marker id="co-ar" viewBox="0 0 12 12" refX="6" refY="9" markerWidth="8" markerHeight="8" orient="auto"><path d="M2 11 L6 3 L10 11" fill="none" stroke="#221D14" stroke-width="2" stroke-linecap="round"/></marker></defs>
+
+    <rect x="124" y="306" width="172" height="46" rx="10" fill="#FBF5E5" stroke="#221D14" stroke-width="2.6" stroke-dasharray="6 4"/>
+    <text x="210" y="335" font-size="17" font-weight="600" fill="#221D14">热量缺口消失</text>
+
+    <text x="210" y="392" font-size="12.5" fill="#7E7258">皮质醇很少「直接」变胖，</text>
+    <text x="210" y="412" font-size="12.5" fill="#7E7258">它改变的是你的行为。</text>
+  </g>
+</svg>

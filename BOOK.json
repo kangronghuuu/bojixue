@@ -1,0 +1,17 @@
+{
+  "title": "薄肌学 · 必修 第一册",
+  "pages": [
+    "pages/00-front.html",
+    "pages/01-intro.html",
+    "pages/02-ch1.html",
+    "pages/03-ch2.html",
+    "pages/04-ch3.html",
+    "pages/05-ch4.html",
+    "pages/06-ch5.html",
+    "pages/07-ch6.html",
+    "pages/08-atlas.html",
+    "pages/09-answers.html",
+    "pages/10-appendix.html",
+    "pages/11-epilogue.html"
+  ]
+}

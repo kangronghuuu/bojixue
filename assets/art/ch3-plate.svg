@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 560" width="520" height="560">
+  <defs>
+    <pattern id="pl-ht" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r="1.2" fill="#221D14" opacity=".3"/></pattern>
+    <pattern id="pl-ht2" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r="1.2" fill="#FFFFFF" opacity=".5"/></pattern>
+  </defs>
+  <!-- plate -->
+  <circle cx="250" cy="250" r="168" fill="#FBF5E5" stroke="#221D14" stroke-width="6"/>
+  <circle cx="250" cy="250" r="152" fill="#F8ECCC" stroke="#221D14" stroke-width="2"/>
+  <!-- vegetables half -->
+  <path d="M250 98 A152 152 0 0 0 250 402 L250 250 Z" fill="#8C9A5B" stroke="#221D14" stroke-width="4"/>
+  <path d="M250 98 A152 152 0 0 0 250 402 L250 250 Z" fill="url(#pl-ht)" opacity=".35"/>
+  <!-- protein quarter -->
+  <path d="M250 98 A152 152 0 0 1 402 250 L250 250 Z" fill="#E9967F" stroke="#221D14" stroke-width="4"/>
+  <!-- carbs quarter -->
+  <path d="M402 250 A152 152 0 0 1 250 402 L250 250 Z" fill="#E8C877" stroke="#221D14" stroke-width="4"/>
+  <!-- labels -->
+  <g font-family="PingFang SC" text-anchor="middle" fill="#221D14">
+    <text x="168" y="240" font-size="24" font-weight="600">蔬菜</text>
+    <text x="168" y="270" font-size="18" fill="#2B3517">½ 盘</text>
+    <text x="316" y="182" font-size="21" font-weight="600">蛋白质</text>
+    <text x="316" y="208" font-size="16" fill="#6B2A18">¼ 盘</text>
+    <text x="316" y="306" font-size="21" font-weight="600">主食</text>
+    <text x="316" y="332" font-size="16" fill="#5E4C1D">¼ 盘</text>
+  </g>
+  <!-- fat -->
+  <circle cx="250" cy="458" r="20" fill="#B0862C" stroke="#221D14" stroke-width="4"/>
+  <text x="286" y="452" font-family="PingFang SC" font-size="20" font-weight="600" fill="#7A5F1E">脂肪</text>
+  <text x="286" y="476" font-family="PingFang SC" font-size="15" fill="#7E7258">约一个拇指</text>
+  <!-- fork/knife hint -->
+  <g stroke="#7E7258" stroke-width="3" stroke-linecap="round">
+    <path d="M52 96 L52 150 M44 96 L44 122 M60 96 L60 122"/>
+    <path d="M60 96 L60 160"/>
+    <path d="M470 96 L470 160" />
+  </g>
+  <text x="250" y="536" text-anchor="middle" font-family="PingFang SC" font-size="17" fill="#7E7258">先分够，再分对。比例是起点，不是戒律。</text>
+</svg>

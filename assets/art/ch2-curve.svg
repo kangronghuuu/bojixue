@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 500" width="520" height="500">
+  <!-- axes -->
+  <g stroke="#221D14" stroke-width="2" fill="none">
+    <path d="M56 60 L56 400 L486 400"/>
+  </g>
+  <g font-family="PingFang SC" fill="#7E7258">
+    <text x="46" y="70" text-anchor="end" font-size="15">kg</text>
+    <text x="56" y="428" font-size="15">时间 →</text>
+  </g>
+  <!-- linear expectation -->
+  <path d="M56 140 L486 392" fill="none" stroke="#B0862C" stroke-width="3" stroke-dasharray="8 7"/>
+  <text x="300" y="256" font-family="PingFang SC" font-size="17" fill="#7A5F1E" transform="rotate(27 300 256)">线性预期</text>
+  <!-- actual -->
+  <path d="M56 140
+           C120 190 150 186 200 216
+           C240 240 250 236 282 250
+           C310 262 318 260 344 268
+           C370 276 378 274 404 292
+           C430 310 448 330 486 352"
+        fill="none" stroke="#221D14" stroke-width="5" stroke-linecap="round"/>
+  <!-- plateaus -->
+  <path d="M200 216 L282 250" stroke="#D4553B" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="210" y="208" font-family="PingFang SC" font-size="16" fill="#A8442B">平台</text>
+  <text x="320" y="300" font-family="PingFang SC" font-size="17" fill="#221D14">真实体重</text>
+  <!-- first week drop -->
+  <path d="M56 140 L96 180" fill="none" stroke="#221D14" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="96" cy="180" r="6" fill="#D4553B"/>
+  <text x="104" y="166" font-family="PingFang SC" font-size="15" fill="#A8442B">第一周：水分与糖原</text>
+  <!-- step marks -->
+  <g stroke="#D8C79A" stroke-width="1.2">
+    <path d="M56 140 L486 140" stroke-dasharray="2 6"/>
+  </g>
+  <text x="56" y="478" font-family="PingFang SC" font-size="15" fill="#7E7258">体重曲线是阶梯，不是直线。</text>
+</svg>

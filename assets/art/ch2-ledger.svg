@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 560" width="520" height="560">
+  <g stroke="#221D14" stroke-linejoin="round">
+    <!-- stand -->
+    <path d="M260 300 L260 470" stroke-width="6"/>
+    <path d="M196 512 L324 512" stroke-width="8" stroke-linecap="round"/>
+    <path d="M260 470 L200 512 M260 470 L320 512" stroke-width="5" fill="none"/>
+    <!-- beam -->
+    <path d="M92 292 L428 232" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="260" cy="262" r="14" fill="#B0862C" stroke-width="5"/>
+    <!-- left pan -->
+    <path d="M92 306 L92 348" stroke-width="4"/>
+    <path d="M42 348 L142 348" stroke-width="5" stroke-linecap="round"/>
+    <path d="M52 348 C60 386 124 386 132 348" stroke-width="5" fill="#F6EACB"/>
+    <!-- right pan -->
+    <path d="M428 246 L428 288" stroke-width="4"/>
+    <path d="M378 288 L478 288" stroke-width="5" stroke-linecap="round"/>
+    <path d="M388 288 C396 326 460 326 468 288" stroke-width="5" fill="#F6EACB"/>
+  </g>
+  <!-- left pan content: bowl + oil -->
+  <g>
+    <path d="M66 330 q26 14 52 0 l-6 18 h-40 Z" fill="#EFD9A0" stroke="#221D14" stroke-width="3.5"/>
+    <path d="M92 312 q-8 14 4 18" fill="none" stroke="#B0862C" stroke-width="3"/>
+    <circle cx="118" cy="326" r="8" fill="#D4553B" stroke="#221D14" stroke-width="3"/>
+  </g>
+  <!-- right pan content: flame -->
+  <path d="M428 262 C440 250 436 240 444 232 C448 244 460 250 456 266 C452 278 440 282 432 276 C426 272 424 266 428 262 Z"
+        fill="#D4553B" stroke="#221D14" stroke-width="3.5"/>
+  <!-- labels -->
+  <g font-family="PingFang SC" text-anchor="middle">
+    <text x="92" y="236" font-size="26" font-weight="600" fill="#221D14">摄入</text>
+    <text x="92" y="414" font-size="15" fill="#7E7258">标签 · 油 · 液体</text>
+    <text x="428" y="222" font-size="26" font-weight="600" fill="#221D14">消耗</text>
+    <text x="428" y="414" font-size="15" fill="#7E7258">BMR · TEF · NEAT</text>
+  </g>
+  <!-- pivot label -->
+  <g transform="translate(260,232)">
+    <rect x="-58" y="-58" width="116" height="34" rx="8" fill="#FBF5E5" stroke="#221D14" stroke-width="2.5"/>
+    <text x="0" y="-34" text-anchor="middle" font-family="PingFang SC" font-size="18" font-weight="600" fill="#7A5F1E">缺口</text>
+  </g>
+  <!-- equation -->
+  <g font-family="PingFang SC" text-anchor="middle">
+    <text x="260" y="536" font-size="21" fill="#4C432F">摄入 − 消耗 ＝ 结余（缺口或盈余）</text>
+  </g>
+</svg>

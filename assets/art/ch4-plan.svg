@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" width="760" height="520">
+  <g font-family="PingFang SC">
+    <!-- grid -->
+    <g stroke="#D8C79A" stroke-width="1.6">
+      <path d="M40 104 L720 104 M40 208 L720 208 M40 312 L720 312 M40 416 L720 416"/>
+      <path d="M40 82 L40 440 M137 82 L137 440 M234 82 L234 440 M331 82 L331 440 M428 82 L428 440 M525 82 L525 440 M622 82 L622 440 M719 82 L719 440"/>
+    </g>
+    <!-- day headers -->
+    <g text-anchor="middle" font-size="23" fill="#4C432F">
+      <text x="88" y="72">一</text><text x="185" y="72">二</text><text x="282" y="72">三</text>
+      <text x="379" y="72">四</text><text x="476" y="72">五</text><text x="573" y="72">六</text><text x="670" y="72">日</text>
+    </g>
+    <!-- cards -->
+    <g text-anchor="middle">
+      <rect x="54" y="120" width="68" height="72" rx="8" fill="#F0B3A2" stroke="#221D14" stroke-width="3"/>
+      <text x="88" y="150" font-size="22" font-weight="600" fill="#5E2213">全身 A</text>
+      <text x="88" y="174" font-size="16" fill="#5E2213">深蹲 · 推</text>
+      <text x="88" y="190" font-size="16" fill="#5E2213">拉 · 核心</text>
+
+      <rect x="248" y="120" width="68" height="72" rx="8" fill="#F0B3A2" stroke="#221D14" stroke-width="3"/>
+      <text x="282" y="150" font-size="22" font-weight="600" fill="#5E2213">全身 B</text>
+      <text x="282" y="174" font-size="16" fill="#5E2213">硬拉 · 推</text>
+      <text x="282" y="190" font-size="16" fill="#5E2213">拉 · 单腿</text>
+
+      <rect x="442" y="120" width="68" height="72" rx="8" fill="#F0B3A2" stroke="#221D14" stroke-width="3"/>
+      <text x="476" y="150" font-size="22" font-weight="600" fill="#5E2213">全身 C</text>
+      <text x="476" y="174" font-size="16" fill="#5E2213">蹲 · 推</text>
+      <text x="476" y="190" font-size="16" fill="#5E2213">拉 · 手臂</text>
+
+      <rect x="151" y="330" width="68" height="66" rx="8" fill="#DCE2BD" stroke="#221D14" stroke-width="2.4"/>
+      <text x="185" y="356" font-size="19" font-weight="600" fill="#2B3517">走路</text>
+      <text x="185" y="378" font-size="16" fill="#2B3517">8000 步</text>
+      <rect x="345" y="330" width="68" height="66" rx="8" fill="#DCE2BD" stroke="#221D14" stroke-width="2.4"/>
+      <text x="379" y="356" font-size="19" font-weight="600" fill="#2B3517">走路</text>
+      <text x="379" y="378" font-size="16" fill="#2B3517">8000 步</text>
+      <rect x="539" y="330" width="68" height="66" rx="8" fill="#DCE2BD" stroke="#221D14" stroke-width="2.4"/>
+      <text x="573" y="356" font-size="19" font-weight="600" fill="#2B3517">走路</text>
+      <text x="573" y="378" font-size="16" fill="#2B3517">8000 步</text>
+      <rect x="636" y="330" width="68" height="66" rx="8" fill="#EFE3C4" stroke="#221D14" stroke-width="2.4" stroke-dasharray="5 4"/>
+      <text x="670" y="368" font-size="19" fill="#7E7258">休息</text>
+    </g>
+    <text x="380" y="496" text-anchor="middle" font-size="22" fill="#7E7258">三练 + 每日走路，是一份能过下去的最小计划。</text>
+  </g>
+</svg>

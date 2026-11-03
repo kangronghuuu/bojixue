@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 460" width="420" height="460">
+  <text x="24" y="42" font-family="PingFang SC" font-size="17" letter-spacing="1" fill="#B0862C">NEAT：看不见的消耗</text>
+  <path d="M24 52 L200 52" stroke="#B0862C" stroke-width="1.2"/>
+
+  <!-- bars -->
+  <g font-family="PingFang SC" text-anchor="middle">
+    <rect x="58" y="250" width="90" height="90" fill="#B9C08D" stroke="#221D14" stroke-width="3"/>
+    <text x="103" y="300" font-size="20" font-weight="600" fill="#2B3517">3 000</text>
+    <text x="103" y="322" font-size="15" fill="#2B3517">步 / 日</text>
+    <text x="103" y="372" font-size="18" fill="#7E7258">久坐办公</text>
+
+    <rect x="230" y="130" width="90" height="210" fill="#8C9A5B" stroke="#221D14" stroke-width="3"/>
+    <text x="275" y="200" font-size="20" font-weight="600" fill="#FBF5E5">12 000</text>
+    <text x="275" y="222" font-size="15" fill="#FBF5E5">步 / 日</text>
+    <text x="275" y="372" font-size="18" fill="#7E7258">走动型工作</text>
+  </g>
+
+  <!-- shoe prints -->
+  <g fill="#7E7258" opacity=".75">
+    <ellipse cx="58" cy="404" rx="8" ry="14" transform="rotate(-20 58 404)"/>
+    <ellipse cx="84" cy="418" rx="8" ry="14" transform="rotate(-20 84 418)"/>
+    <ellipse cx="110" cy="404" rx="8" ry="14" transform="rotate(-20 110 404)"/>
+  </g>
+  <g font-family="PingFang SC">
+    <text x="24" y="446" font-size="12.5" fill="#7E7258">NEAT 可占 TDEE 的 15%–30%，且减脂时会悄悄下降。</text>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 500" width="620" height="500">
+  <defs>
+    <marker id="st-ar" viewBox="0 0 12 12" refX="6" refY="8" markerWidth="9" markerHeight="9" orient="auto">
+      <path d="M2 10 L6 2 L10 10" fill="none" stroke="#B0862C" stroke-width="2.2" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <!-- steps -->
+  <g stroke="#221D14" stroke-width="4" stroke-linejoin="round">
+    <path d="M44 420 L44 372 L150 372 L150 420 Z" fill="#EFD9A0"/>
+    <path d="M150 372 L150 316 L256 316 L256 372 Z" fill="#E4CE93"/>
+    <path d="M256 316 L256 252 L362 252 L362 316 Z" fill="#D9C084"/>
+    <path d="M362 252 L362 180 L468 180 L468 252 Z" fill="#C9B172"/>
+    <path d="M468 180 L468 100 L574 100 L574 180 Z" fill="#B9A263"/>
+  </g>
+  <!-- dumbbells on steps -->
+  <g stroke="#221D14" stroke-width="3.6">
+    <g transform="translate(97,352) rotate(-12)">
+      <rect x="-26" y="-5" width="52" height="10" rx="4" fill="#FBF5E5"/>
+      <rect x="-38" y="-14" width="12" height="28" rx="4" fill="#D4553B"/>
+      <rect x="26" y="-14" width="12" height="28" rx="4" fill="#D4553B"/>
+    </g>
+    <g transform="translate(203,296) rotate(-12)">
+      <rect x="-26" y="-5" width="52" height="10" rx="4" fill="#FBF5E5"/>
+      <rect x="-38" y="-14" width="12" height="28" rx="4" fill="#D4553B"/>
+      <rect x="26" y="-14" width="12" height="28" rx="4" fill="#D4553B"/>
+    </g>
+    <g transform="translate(309,232) rotate(-12)">
+      <rect x="-26" y="-5" width="52" height="10" rx="4" fill="#FBF5E5"/>
+      <rect x="-38" y="-14" width="12" height="28" rx="4" fill="#D4553B"/>
+      <rect x="26" y="-14" width="12" height="28" rx="4" fill="#D4553B"/>
+    </g>
+    <g transform="translate(415,160) rotate(-12)">
+      <rect x="-26" y="-5" width="52" height="10" rx="4" fill="#FBF5E5"/>
+      <rect x="-38" y="-14" width="12" height="28" rx="4" fill="#D4553B"/>
+      <rect x="26" y="-14" width="12" height="28" rx="4" fill="#D4553B"/>
+    </g>
+  </g>
+  <!-- arrow -->
+  <path d="M88 336 C220 300 330 220 470 120" fill="none" stroke="#B0862C" stroke-width="2.6" stroke-dasharray="7 7" marker-end="url(#st-ar)"/>
+  <!-- labels -->
+  <g font-family="PingFang SC" text-anchor="middle">
+    <text x="97" y="452" font-size="22" fill="#7E7258">第 1 周</text>
+    <text x="203" y="452" font-size="22" fill="#7E7258">第 2 周</text>
+    <text x="309" y="452" font-size="22" fill="#7E7258">第 3 周</text>
+    <text x="415" y="452" font-size="22" fill="#7E7258">第 4 周</text>
+    <text x="520" y="452" font-size="22" fill="#7E7258">第 5 周</text>
+    <text x="310" y="64" font-size="30" font-weight="600" fill="#221D14">每次只加一点，方向朝上</text>
+    <text x="310" y="90" font-size="20" fill="#7E7258">重量 · 次数 · 组数 · 频率</text>
+  </g>
+</svg>

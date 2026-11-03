@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 540" width="540" height="540">
+  <defs>
+    <pattern id="il-ht" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#221D14" opacity=".3"/></pattern>
+    <marker id="il-ar" viewBox="0 0 12 12" refX="9" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1 L10 6 L1 11" fill="none" stroke="#B0862C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <circle cx="270" cy="270" r="176" fill="none" stroke="#D9BE7C" stroke-width="2" stroke-dasharray="3 7"/>
+  <circle cx="270" cy="270" r="72" fill="#F6EACB" stroke="#221D14" stroke-width="5"/>
+  <circle cx="270" cy="270" r="72" fill="url(#il-ht)" opacity=".22"/>
+  <text x="270" y="262" text-anchor="middle" font-family="Songti SC,serif" font-size="26" font-weight="700" fill="#221D14">研究</text>
+  <text x="270" y="292" text-anchor="middle" font-family="Songti SC,serif" font-size="26" font-weight="700" fill="#221D14">循环</text>
+
+  <g font-family="PingFang SC" text-anchor="middle">
+    <circle cx="270" cy="94" r="52" fill="#FBF5E5" stroke="#221D14" stroke-width="5"/>
+    <text x="270" y="88" font-size="15" letter-spacing="1.5" fill="#B0862C">01</text>
+    <text x="270" y="114" font-size="21" font-weight="600" fill="#221D14">观察</text>
+
+    <circle cx="432" cy="212" r="52" fill="#FBF5E5" stroke="#221D14" stroke-width="5"/>
+    <text x="432" y="206" font-size="15" letter-spacing="1.5" fill="#B0862C">02</text>
+    <text x="432" y="232" font-size="21" font-weight="600" fill="#221D14">描述</text>
+
+    <circle cx="370" cy="404" r="52" fill="#FBF5E5" stroke="#221D14" stroke-width="5"/>
+    <text x="370" y="398" font-size="15" letter-spacing="1.5" fill="#B0862C">03</text>
+    <text x="370" y="424" font-size="21" font-weight="600" fill="#221D14">测量</text>
+
+    <circle cx="170" cy="404" r="52" fill="#FBF5E5" stroke="#221D14" stroke-width="5"/>
+    <text x="170" y="398" font-size="15" letter-spacing="1.5" fill="#B0862C">04</text>
+    <text x="170" y="424" font-size="21" font-weight="600" fill="#221D14">建模</text>
+
+    <circle cx="108" cy="212" r="52" fill="#FBF5E5" stroke="#221D14" stroke-width="5"/>
+    <text x="108" y="206" font-size="15" letter-spacing="1.5" fill="#B0862C">05</text>
+    <text x="108" y="232" font-size="21" font-weight="600" fill="#221D14">检验</text>
+  </g>
+
+  <g fill="none" stroke="#B0862C" stroke-width="2.2" marker-end="url(#il-ar)">
+    <path d="M311 129 C368 148 396 174 410 192"/>
+    <path d="M453 264 C450 320 422 352 403 366"/>
+    <path d="M326 437 C296 451 258 451 228 437"/>
+    <path d="M121 366 C102 340 96 312 99 272"/>
+    <path d="M136 170 C160 144 194 130 215 124"/>
+  </g>
+</svg>

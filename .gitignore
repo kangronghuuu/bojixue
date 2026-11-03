@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# generated artifacts
+index.html
+build/*.html
+build/*.png
+build/_op.*
+build/preview/
+
+# temp
+*.tmp

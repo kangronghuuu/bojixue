@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="900" height="480">
+  <g stroke="#221D14" stroke-width="2.4" fill="none">
+    <path d="M64 64 L64 386 L856 386"/>
+  </g>
+  <g font-family="PingFang SC" fill="#7E7258">
+    <text x="52" y="76" text-anchor="end" font-size="17">体重</text>
+    <text x="80" y="416" font-size="16">第 1 月</text>
+    <text x="290" y="416" font-size="16">第 2 月</text>
+    <text x="500" y="416" font-size="16">第 3 月</text>
+    <text x="710" y="416" font-size="16">第 4 月</text>
+  </g>
+  <!-- break bands -->
+  <g fill="#F6EACB" opacity=".8">
+    <rect x="196" y="88" width="96" height="292"/>
+    <rect x="404" y="170" width="96" height="210"/>
+    <rect x="612" y="236" width="96" height="144"/>
+  </g>
+  <g stroke="#B0862C" stroke-width="2" stroke-dasharray="5 4">
+    <path d="M196 88 L196 380 M292 88 L292 380"/>
+    <path d="M404 170 L404 380 M500 170 L500 380"/>
+    <path d="M612 236 L612 380 M708 236 L708 380"/>
+  </g>
+  <!-- weight line -->
+  <path d="M64 108
+           C100 146 140 168 180 188
+           C200 198 208 198 220 200
+           C240 202 250 198 268 196
+           C286 194 300 202 320 228
+           C350 266 380 286 404 300
+           C424 312 432 312 448 314
+           C468 316 480 314 500 322
+           C520 330 530 344 552 358
+           C572 370 584 372 612 366
+           C630 362 640 362 660 356
+           C690 346 710 330 736 318
+           C770 302 810 296 856 292"
+        fill="none" stroke="#221D14" stroke-width="5" stroke-linecap="round"/>
+  <!-- labels -->
+  <g font-family="PingFang SC" fill="#7A5F1E">
+    <text x="244" y="80" text-anchor="middle" font-size="15">diet break</text>
+    <text x="452" y="162" text-anchor="middle" font-size="15">diet break</text>
+    <text x="660" y="228" text-anchor="middle" font-size="15">diet break</text>
+  </g>
+  <g font-family="PingFang SC" fill="#7E7258">
+    <text x="120" y="300" font-size="15">缺口期</text>
+    <text x="330" y="354" font-size="15">缺口期</text>
+    <text x="760" y="350" font-size="15">继续下降</text>
+  </g>
+  <text x="64" y="458" font-family="PingFang SC" font-size="16" fill="#7E7258">总方向不变：休息的是节奏，不是目标。</text>
+</svg>

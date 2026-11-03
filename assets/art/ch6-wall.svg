@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560">
+  <defs>
+    <pattern id="wall-brick" width="120" height="56" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="120" height="56" fill="#F2E4C2"/>
+      <path d="M0 0 L120 0 M0 56 L120 56 M60 0 L60 28 M0 28 L120 28" stroke="#DCCB9E" stroke-width="3" fill="none"/>
+    </pattern>
+    <pattern id="wall-ht" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#221D14" opacity=".2"/></pattern>
+  </defs>
+
+  <!-- wall -->
+  <rect x="20" y="96" width="860" height="430" fill="url(#wall-brick)" stroke="#221D14" stroke-width="5"/>
+  <rect x="20" y="96" width="860" height="430" fill="url(#wall-ht)" opacity=".5"/>
+
+  <!-- door opening with light -->
+  <path d="M596 526 L596 186 C596 166 610 152 630 152 L760 152 L760 526 Z" fill="#EFD9A0" stroke="#221D14" stroke-width="5"/>
+  <path d="M596 526 L596 186 C596 166 610 152 630 152 L672 152 L672 526 Z" fill="#FBF5E5" stroke="#221D14" stroke-width="4"/>
+  <!-- light rays -->
+  <g stroke="#B0862C" stroke-width="2" opacity=".5">
+    <path d="M700 180 L840 120"/>
+    <path d="M700 230 L860 200"/>
+    <path d="M700 280 L880 300"/>
+  </g>
+  <!-- door frame detail -->
+  <circle cx="664" cy="340" r="7" fill="#221D14"/>
+
+  <!-- sign -->
+  <g transform="translate(300,200) rotate(-4)">
+    <path d="M-120 -4 L-120 -58" stroke="#7E7258" stroke-width="3"/>
+    <path d="M100 -4 L100 -58" stroke="#7E7258" stroke-width="3"/>
+    <rect x="-140" y="-6" width="280" height="96" rx="6" fill="#FBF5E5" stroke="#221D14" stroke-width="4"/>
+    <text x="0" y="42" text-anchor="middle" font-family="Songti SC,serif" font-size="46" font-weight="700" fill="#221D14">平台期</text>
+    <text x="0" y="70" text-anchor="middle" font-family="PingFang SC" font-size="15" fill="#7E7258">请勿撞墙</text>
+  </g>
+
+  <!-- checklist board -->
+  <g transform="translate(78,318)">
+    <rect x="0" y="0" width="230" height="168" rx="8" fill="#FBF5E5" stroke="#221D14" stroke-width="4"/>
+    <text x="18" y="34" font-family="PingFang SC" font-size="17" font-weight="600" fill="#221D14">先检查 · 再拆墙</text>
+    <g font-family="PingFang SC" font-size="16" fill="#4C432F">
+      <rect x="18" y="54" width="18" height="18" fill="none" stroke="#221D14" stroke-width="2.4"/>
+      <text x="48" y="69">记录完整吗</text>
+      <rect x="18" y="88" width="18" height="18" fill="none" stroke="#221D14" stroke-width="2.4"/>
+      <text x="48" y="103">依从性 &gt; 80% 吗</text>
+      <rect x="18" y="122" width="18" height="18" fill="none" stroke="#221D14" stroke-width="2.4"/>
+      <text x="48" y="137">睡够 7 小时吗</text>
+    </g>
+  </g>
+
+  <!-- small figure with key -->
+  <g stroke="#221D14" stroke-linejoin="round">
+    <circle cx="430" cy="360" r="30" fill="#F8ECCC" stroke-width="4"/>
+    <circle cx="420" cy="356" r="3.5" fill="#221D14" stroke="none"/>
+    <circle cx="440" cy="356" r="3.5" fill="#221D14" stroke="none"/>
+    <path d="M422 370 q8 4 16 0" fill="none" stroke-width="2.6"/>
+    <path d="M430 390 L430 470" stroke-width="5"/>
+    <path d="M430 470 L414 512 M430 470 L446 512" stroke-width="5" fill="none"/>
+    <path d="M430 408 L406 440 M430 408 L454 440" stroke-width="5" fill="none"/>
+    <rect x="452" y="430" width="30" height="10" rx="4" fill="#B0862C" stroke-width="3" transform="rotate(24 452 430)"/>
+    <circle cx="478" cy="442" r="8" fill="none" stroke-width="3"/>
+  </g>
+  <text x="450" y="532" text-anchor="middle" font-family="PingFang SC" font-size="15" fill="#7E7258">带着证据去谈判</text>
+</svg>

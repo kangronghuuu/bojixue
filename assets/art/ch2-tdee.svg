@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 560" width="520" height="560">
+  <defs>
+    <pattern id="t-ht" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#221D14" opacity=".25"/></pattern>
+  </defs>
+  <!-- bar -->
+  <rect x="74" y="80" width="118" height="380" fill="#FBF5E5" stroke="#221D14" stroke-width="4"/>
+  <rect x="74" y="80" width="118" height="247" fill="#EFD9A0" stroke="#221D14" stroke-width="3.5"/>
+  <rect x="74" y="327" width="118" height="38" fill="#B9C08D" stroke="#221D14" stroke-width="3.5"/>
+  <rect x="74" y="365" width="118" height="76" fill="#F0B3A2" stroke="#221D14" stroke-width="3.5"/>
+  <rect x="74" y="441" width="118" height="19" fill="#3F6663" stroke="#221D14" stroke-width="3.5"/>
+  <rect x="74" y="80" width="118" height="380" fill="url(#t-ht)" opacity=".18"/>
+  <!-- labels -->
+  <g font-family="PingFang SC">
+    <text x="112" y="196" text-anchor="middle" font-size="30" font-weight="700" fill="#221D14">65%</text>
+    <text x="212" y="150" font-size="21" font-weight="600" fill="#221D14">基础代谢 BMR</text>
+    <text x="212" y="174" font-size="15" fill="#7E7258">躺着也要花的钱</text>
+    <path d="M196 158 L178 170" stroke="#7E7258" stroke-width="1.4"/>
+
+    <text x="212" y="352" font-size="19" font-weight="600" fill="#4E5A2A">食物热效应 TEF</text>
+    <text x="212" y="374" font-size="14" fill="#7E7258">消化也要耗能，约 10%</text>
+    <path d="M196 356 L180 356" stroke="#7E7258" stroke-width="1.4"/>
+
+    <text x="212" y="408" font-size="19" font-weight="600" fill="#A8442B">NEAT</text>
+    <text x="212" y="430" font-size="14" fill="#7E7258">走路、站立、抖腿</text>
+    <path d="M196 412 L180 412" stroke="#7E7258" stroke-width="1.4"/>
+
+    <text x="212" y="466" font-size="16" font-weight="600" fill="#2E4B48">EAT 运动</text>
+    <path d="M196 458 L180 456" stroke="#7E7258" stroke-width="1.4"/>
+
+    <text x="230" y="512" font-size="17" fill="#4C432F">TDEE ＝ 四栏相加</text>
+    <text x="230" y="536" font-size="14" fill="#7E7258">每一栏都有自己的误差</text>
+  </g>
+  <!-- TDEE bracket -->
+  <path d="M58 80 L58 460" stroke="#B0862C" stroke-width="2"/>
+  <path d="M58 80 L70 80 M58 460 L70 460" stroke="#B0862C" stroke-width="2"/>
+  <text x="40" y="278" text-anchor="middle" font-family="PingFang SC" font-size="20" font-weight="600" fill="#7A5F1E" transform="rotate(-90 40 278)">TDEE</text>
+</svg>

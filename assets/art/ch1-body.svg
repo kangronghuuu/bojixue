@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 620" width="560" height="620">
+  <defs>
+    <marker id="b-ar" viewBox="0 0 12 12" refX="6" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M2 2 L10 6 L2 10" fill="none" stroke="#B0862C" stroke-width="2" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g stroke="#221D14" stroke-width="5" stroke-linejoin="round">
+    <path d="M280 118 C306 118 324 140 324 168 C324 190 312 206 298 214 L298 238
+             C344 246 372 268 380 300 C390 340 372 372 364 402
+             C358 430 372 466 376 500 C376 540 350 560 324 566
+             L300 566 L300 500 L280 470 L260 500 L260 566
+             L236 566 C210 560 184 540 184 500 C188 466 202 430 196 402
+             C188 372 170 340 180 300 C188 268 216 246 262 238 L262 214
+             C248 206 236 190 236 168 C236 140 254 118 280 118 Z"
+          fill="#F8ECCC"/>
+  </g>
+  <g stroke="#221D14" stroke-width="2.4" opacity=".55" fill="none">
+    <path d="M280 300 L280 388"/>
+    <path d="M254 324 L306 324 M248 352 L312 352 M254 380 L306 380"/>
+  </g>
+
+  <!-- shoulder width -->
+  <g stroke="#B0862C" stroke-width="2.2">
+    <path d="M196 258 L364 258" marker-start="url(#b-ar)" marker-end="url(#b-ar)"/>
+  </g>
+  <text x="24" y="236" font-family="PingFang SC" font-size="20" fill="#7A5F1E">肩宽</text>
+  <path d="M86 232 L190 254" stroke="#7A5F1E" stroke-width="1.3" stroke-dasharray="3 4"/>
+
+  <!-- waist ellipse -->
+  <ellipse cx="280" cy="380" rx="92" ry="28" fill="none" stroke="#D4553B" stroke-width="2.4" stroke-dasharray="7 5"/>
+  <path d="M372 380 L440 350" stroke="#D4553B" stroke-width="1.4" stroke-dasharray="3 4"/>
+  <text x="446" y="344" font-family="PingFang SC" font-size="20" fill="#A8442B">腰围</text>
+
+  <!-- hip -->
+  <path d="M196 470 L364 470" stroke="#66733C" stroke-width="2" stroke-dasharray="6 5"/>
+  <path d="M364 470 L440 470" stroke="#66733C" stroke-width="1.4" stroke-dasharray="3 4"/>
+  <text x="446" y="476" font-family="PingFang SC" font-size="20" fill="#4E5A2A">臀围</text>
+
+  <!-- arm circle -->
+  <circle cx="184" cy="330" r="25" fill="none" stroke="#B0862C" stroke-width="2.2" stroke-dasharray="5 4"/>
+  <path d="M160 330 L112 300" stroke="#B0862C" stroke-width="1.4" stroke-dasharray="3 4"/>
+  <text x="10" y="294" font-family="PingFang SC" font-size="20" fill="#7A5F1E">上臂围</text>
+
+  <!-- height -->
+  <g stroke="#7E7258" stroke-width="1.6">
+    <path d="M500 118 L500 566" marker-start="url(#b-ar)" marker-end="url(#b-ar)"/>
+  </g>
+  <text x="530" y="350" font-family="PingFang SC" font-size="20" fill="#7E7258" transform="rotate(90 530 350)">身高</text>
+
+  <text x="24" y="60" font-family="PingFang SC" font-size="14" letter-spacing="1.2" fill="#B0862C">身体测量 · 基础读数</text>
+  <path d="M24 70 L170 70" stroke="#B0862C" stroke-width="1.2"/>
+</svg>

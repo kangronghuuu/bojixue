@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 640" width="820" height="640">
+  <defs>
+    <pattern id="p-ht" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="2.2" cy="2.2" r="1.1" fill="#8E2F1E" opacity=".45"/></pattern>
+    <pattern id="p-ht2" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="2.2" cy="2.2" r="1.1" fill="#221D14" opacity=".22"/></pattern>
+  </defs>
+
+  <!-- ============ A : 70kg 25% ============ -->
+  <g stroke="#221D14" stroke-width="5" stroke-linejoin="round">
+    <!-- arms outer -->
+    <path d="M118 220 C104 280 100 350 106 404" fill="none" stroke="#D4553B" stroke-width="42" stroke-linecap="round"/>
+    <path d="M302 220 C316 280 320 350 314 404" fill="none" stroke="#D4553B" stroke-width="42" stroke-linecap="round"/>
+    <!-- legs outer -->
+    <path d="M180 470 C176 500 174 520 176 540" fill="none" stroke="#D4553B" stroke-width="54" stroke-linecap="round"/>
+    <path d="M240 470 C244 500 246 520 244 540" fill="none" stroke="#D4553B" stroke-width="54" stroke-linecap="round"/>
+    <!-- torso outer -->
+    <path d="M118 210 C118 180 160 168 182 170 L238 170 C260 168 302 180 302 210
+             C302 250 280 290 282 330 C284 372 306 410 306 440
+             C306 470 282 486 262 488 L158 488 C138 486 114 470 114 440
+             C114 410 136 372 138 330 C140 290 118 250 118 210 Z"
+          fill="#D4553B" stroke-width="5"/>
+    <path d="M118 210 C118 180 160 168 182 170 L238 170 C260 168 302 180 302 210
+             C302 250 280 290 282 330 C284 372 306 410 306 440
+             C306 470 282 486 262 488 L158 488 C138 486 114 470 114 440
+             C114 410 136 372 138 330 C140 290 118 250 118 210 Z"
+          fill="url(#p-ht)" stroke="none"/>
+    <!-- torso inner (lean mass) -->
+    <path d="M150 226 C146 244 160 270 164 300 C168 340 154 380 158 420
+             C160 448 178 458 196 460 L224 460 C242 458 260 448 262 420
+             C266 380 252 340 256 300 C260 270 274 244 270 226
+             C262 206 240 200 220 200 L200 200 C180 200 158 206 150 226 Z"
+          fill="#F8ECCC" stroke-width="4"/>
+    <!-- inner limbs -->
+    <path d="M118 222 C106 280 102 350 108 402" fill="none" stroke="#F8ECCC" stroke-width="20" stroke-linecap="round"/>
+    <path d="M302 222 C314 280 318 350 312 402" fill="none" stroke="#F8ECCC" stroke-width="20" stroke-linecap="round"/>
+    <path d="M182 470 C179 500 177 520 179 540" fill="none" stroke="#F8ECCC" stroke-width="28" stroke-linecap="round"/>
+    <path d="M238 470 C241 500 243 520 241 540" fill="none" stroke="#F8ECCC" stroke-width="28" stroke-linecap="round"/>
+    <circle cx="120" cy="418" r="18" fill="#F8ECCC" stroke-width="4"/>
+    <circle cx="300" cy="418" r="18" fill="#F8ECCC" stroke-width="4"/>
+    <ellipse cx="176" cy="544" rx="30" ry="12" fill="#F8ECCC" stroke-width="4"/>
+    <ellipse cx="244" cy="544" rx="30" ry="12" fill="#F8ECCC" stroke-width="4"/>
+    <circle cx="210" cy="116" r="52" fill="#F8ECCC" stroke-width="5"/>
+    <circle cx="194" cy="112" r="5" fill="#221D14" stroke="none"/>
+    <circle cx="226" cy="112" r="5" fill="#221D14" stroke="none"/>
+    <path d="M196 140 q14 8 28 0" fill="none" stroke-width="4"/>
+  </g>
+  <text x="210" y="616" text-anchor="middle" font-family="PingFang SC" font-size="24" font-weight="600" fill="#221D14">70 kg · 体脂 25%</text>
+
+  <!-- ============ B : 70kg 13% ============ -->
+  <g stroke="#221D14" stroke-width="5" stroke-linejoin="round">
+    <path d="M548 220 C538 280 536 350 540 404" fill="none" stroke="#D4553B" stroke-width="36" stroke-linecap="round"/>
+    <path d="M672 220 C682 280 684 350 680 404" fill="none" stroke="#D4553B" stroke-width="36" stroke-linecap="round"/>
+    <path d="M592 470 C590 500 590 520 592 540" fill="none" stroke="#D4553B" stroke-width="46" stroke-linecap="round"/>
+    <path d="M628 470 C630 500 630 520 628 540" fill="none" stroke="#D4553B" stroke-width="46" stroke-linecap="round"/>
+    <path d="M548 210 C548 184 578 174 596 176 L624 176 C642 174 672 184 672 210
+             C672 246 654 286 656 326 C658 368 680 404 680 434
+             C680 462 660 476 642 478 L578 478 C560 476 540 462 540 434
+             C540 404 562 368 564 326 C566 286 548 246 548 210 Z"
+          fill="#D4553B" stroke-width="5"/>
+    <path d="M548 210 C548 184 578 174 596 176 L624 176 C642 174 672 184 672 210
+             C672 246 654 286 656 326 C658 368 680 404 680 434
+             C680 462 660 476 642 478 L578 478 C560 476 540 462 540 434
+             C540 404 562 368 564 326 C566 286 548 246 548 210 Z"
+          fill="url(#p-ht2)" stroke="none"/>
+    <path d="M566 230 C562 250 574 276 578 306 C582 346 570 384 574 416
+             C576 440 590 448 604 450 L616 450 C630 448 644 440 646 416
+             C650 384 638 346 642 306 C646 276 658 250 654 230
+             C648 212 630 206 616 206 L604 206 C590 206 572 212 566 230 Z"
+          fill="#F8ECCC" stroke-width="4"/>
+    <path d="M548 222 C540 280 538 350 542 402" fill="none" stroke="#F8ECCC" stroke-width="16" stroke-linecap="round"/>
+    <path d="M672 222 C680 280 682 350 678 402" fill="none" stroke="#F8ECCC" stroke-width="16" stroke-linecap="round"/>
+    <path d="M594 470 C592 500 592 520 594 540" fill="none" stroke="#F8ECCC" stroke-width="24" stroke-linecap="round"/>
+    <path d="M626 470 C628 500 628 520 626 540" fill="none" stroke="#F8ECCC" stroke-width="24" stroke-linecap="round"/>
+    <circle cx="542" cy="416" r="15" fill="#F8ECCC" stroke-width="4"/>
+    <circle cx="678" cy="416" r="15" fill="#F8ECCC" stroke-width="4"/>
+    <ellipse cx="592" cy="544" rx="27" ry="11" fill="#F8ECCC" stroke-width="4"/>
+    <ellipse cx="628" cy="544" rx="27" ry="11" fill="#F8ECCC" stroke-width="4"/>
+    <circle cx="610" cy="116" r="48" fill="#F8ECCC" stroke-width="5"/>
+    <circle cx="596" cy="112" r="5" fill="#221D14" stroke="none"/>
+    <circle cx="624" cy="112" r="5" fill="#221D14" stroke="none"/>
+    <path d="M598 138 q12 7 24 0" fill="none" stroke-width="4"/>
+  </g>
+  <text x="610" y="616" text-anchor="middle" font-family="PingFang SC" font-size="24" font-weight="600" fill="#221D14">70 kg · 体脂 13%</text>
+
+  <!-- annotations -->
+  <g font-family="PingFang SC" font-size="20" fill="#7E7258">
+    <text x="410" y="52" text-anchor="middle" font-size="22" letter-spacing="1.5" fill="#B0862C">同样的体重，不同的构成</text>
+    <text x="62" y="300" font-family="PingFang SC" font-size="19" fill="#A8442B">脂肪层</text>
+    <path d="M124 300 L168 318" stroke="#A8442B" stroke-width="1.4" stroke-dasharray="3 3"/>
+    <text x="700" y="330" font-family="PingFang SC" font-size="19" fill="#4E5A2A">肌肉</text>
+    <path d="M700 318 L672 306" stroke="#4E5A2A" stroke-width="1.4" stroke-dasharray="3 3"/>
+  </g>
+
+  <!-- scale icon -->
+  <g>
+    <rect x="372" y="392" width="76" height="52" rx="10" fill="#F6EACB" stroke="#221D14" stroke-width="4"/>
+    <path d="M386 412 q24 -18 48 0" fill="none" stroke="#B0862C" stroke-width="4" stroke-linecap="round"/>
+    <path d="M410 412 l-10 -14" stroke="#221D14" stroke-width="3.4" stroke-linecap="round"/>
+    <text x="410" y="470" text-anchor="middle" font-family="PingFang SC" font-size="17" fill="#7E7258">秤只报总数</text>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 560" width="520" height="560">
+  <g stroke="#221D14" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- palm -->
+    <g transform="translate(130,120)">
+      <rect x="-46" y="-26" width="92" height="84" rx="16" fill="#F8ECCC"/>
+      <rect x="-40" y="-78" width="16" height="56" rx="8" fill="#F8ECCC"/>
+      <rect x="-16" y="-86" width="16" height="64" rx="8" fill="#F8ECCC"/>
+      <rect x="8" y="-80" width="16" height="58" rx="8" fill="#F8ECCC"/>
+      <rect x="32" y="-66" width="15" height="44" rx="7" fill="#F8ECCC"/>
+      <path d="M-20 8 q4 14 -2 22" stroke-width="2.5" opacity=".5"/>
+    </g>
+    <text x="130" y="240" text-anchor="middle" font-family="PingFang SC" font-size="20" font-weight="600" fill="#221D14">掌心</text>
+    <text x="130" y="266" text-anchor="middle" font-family="PingFang SC" font-size="16" fill="#7E7258">蛋白质</text>
+
+    <!-- fist -->
+    <g transform="translate(390,120)">
+      <circle cx="0" cy="6" r="50" fill="#F8ECCC"/>
+      <path d="M-30 -16 q10 -8 20 0 M-6 -24 q10 -8 20 0 M18 -18 q10 -8 20 0" stroke-width="2.5" opacity=".55"/>
+      <path d="M-34 22 q34 16 68 0" stroke-width="2.5" opacity=".55"/>
+    </g>
+    <text x="390" y="240" text-anchor="middle" font-family="PingFang SC" font-size="20" font-weight="600" fill="#221D14">拳头</text>
+    <text x="390" y="266" text-anchor="middle" font-family="PingFang SC" font-size="16" fill="#7E7258">主食</text>
+
+    <!-- cupped hands -->
+    <g transform="translate(130,390)">
+      <path d="M-58 -10 C-58 44 -30 62 0 62 C30 62 58 44 58 -10" fill="#F8ECCC"/>
+      <path d="M-34 6 C-34 36 -16 46 0 46 C16 46 34 36 34 6" stroke-width="2.5" opacity=".5"/>
+    </g>
+    <text x="130" y="500" text-anchor="middle" font-family="PingFang SC" font-size="20" font-weight="600" fill="#221D14">双手捧</text>
+    <text x="130" y="526" text-anchor="middle" font-family="PingFang SC" font-size="16" fill="#7E7258">蔬菜</text>
+
+    <!-- thumb -->
+    <g transform="translate(390,390)">
+      <path d="M-18 46 C-40 30 -44 6 -30 -8 C-20 -18 -8 -10 -6 4 L-6 22 C4 8 22 6 30 18 C38 30 26 44 12 52 C2 58 -8 56 -18 46 Z" fill="#F8ECCC"/>
+    </g>
+    <text x="390" y="500" text-anchor="middle" font-family="PingFang SC" font-size="20" font-weight="600" fill="#221D14">拇指</text>
+    <text x="390" y="526" text-anchor="middle" font-family="PingFang SC" font-size="16" fill="#7E7258">脂肪</text>
+  </g>
+</svg>
